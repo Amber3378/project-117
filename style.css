@@ -1,0 +1,73 @@
+body
+{
+    background-color: aqua;
+}
+
+
+#display_score_span
+{
+    font-size: 40px;
+    margin-right: 200px;
+    font-family: cursive;
+}
+
+
+#heading
+{
+    font-family: cursive;
+    background-color: white;
+}
+
+
+#display_timer_span
+{
+    font-size: 40px;
+    margin-left: 200px;
+    font-family: cursive;
+}
+
+
+#sketch_to_be_drawn
+{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+#sketch_display_name
+{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+#sketch_confidence
+{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px gray;
+    box-shadow: 1px 1px 38px white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px gray;
+    }
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
+
+
+
